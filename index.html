@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Vingadores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="barraSuperior"></div>
+    <img src="./Imagens/canto_superior-removebg-preview.png" alt="imagem Superior" class="top" id="imgSuperior">
+    <div class="start hide">
+        <img src="./Imagens/Avengers.PNG" alt="capa de início">
+        <h1 class="titulo"> Seja Bem Vindo(a) ao Quiz Squad </h1> 
+        <li class="subTitulo"><a href="index.html">Início</a></li>
+    </div>
+    <div class="container hide">
+
+        <div class="rules-container hide">
+            <p>Regras</p>
+            <ul class="list-container">
+                <li>Você terá 15 segundos para responder cada pergunta.</li>
+                <li>Se você errar, o jogo recomeça.</li>
+            </ul>
+           
+        </div>
+
+
+        <div class="questions-container hide">
+            <div class="timer-display">Tempo restante: 10s</div>
+            <span class="spnQtd"></span>
+            <span class="questions">Pergunta aqui?</span>
+            <div class="answers-container">
+                
+                <button class="answer button">Resposta A</button>
+                <button class="answer button">Resposta B</button>
+                <button class="answer button">Resposta C</button>
+                <button class="answer button">Resposta D</button>
+            </div>
+        </div> 
+
+      
+
+        <div class="controls-container">
+            <button class="comeca-quiz">Começar Quiz</button>
+            <button class=" next-question hide">Próxima pergunta</button>
+        </div>
+    </div>
+    <img src="./Imagens/Avengers1-removebg-preview.png" alt=" canto Inferior" class="baixo" id="imgInferior">
+    <script src="script.js"></script>
+</body>
+</html>
