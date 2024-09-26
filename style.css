@@ -8,24 +8,7 @@
     margin: 20px 0;  
 }
 
-li.subTitulo a{text-decoration: none;   
-    color: #6d0303;          
-     font-size: 18px ;         
-    font-weight: bold;       
-    padding: 10px 15px;      
-    background-color: #f1f1f1; 
-    border-radius: 5px;     
-    display: inline-block;
-}    
 
-li.subTitulo a:hover {
-    background-color: #faf3f4; 
-    color: rgb(207, 22, 22);              
-}  
-
-.a{
-    background-color:#e9b830;
-}
 
 .top{
   position: absolute;

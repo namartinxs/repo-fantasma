@@ -128,17 +128,7 @@ function selectAnserw(event){
    clearInterval(timer);
 }
 
-function fimDoJogo(){
-    questionsContainer.innerHTML =
-    `
-        <p>
-            Parabéns você acertou todas as perguntas do jogo.
-        </p>
-        <button onclick = window.location.reload()>
-            Refazer Quiz
-        </button>
-    `;
-}
+
 
 function reStart(){
     
